@@ -3,8 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# load dataset (pastikan ukuran file sudah diperkecil sebelumnya)
-df = pd.read_csv("main_data.csv")
+df = pd.read_csv("https://github.com/lusialifatul/Submission/releases/download/v1.0.0/main_data.csv")
 
 # konversi tanggal order ke format datetime
 df["order_purchase_timestamp"] = pd.to_datetime(df["order_purchase_timestamp"])
