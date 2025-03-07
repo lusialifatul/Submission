@@ -1,1 +1,1 @@
-https://share.streamlit.io/
+http://localhost:8501/
