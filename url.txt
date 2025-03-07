@@ -1,1 +1,6 @@
-http://localhost:8501/
+- Nama: Lusi Alifatul Laila
+- Email: lusilaila0312@gmail.com
+- ID Dicoding: lusi_laila
+
+- url github: https://github.com/lusialifatul/Submission.git
+- url streamlit: https://submission-lusi.streamlit.app/
