@@ -2,9 +2,15 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import os
 
-# Load dataset
-df = pd.read_csv("main_data.csv")
+file_path = os.path.abspath("main_data.csv")  # Dapatkan path absolut
+print("File path:", file_path)  # Debugging: cek lokasi file
+
+df = pd.read_csv(file_path)  # Gunakan path absolut
+
+# # Load dataset
+# df = pd.read_csv("main_data.csv")
 
 # Sidebar 
 st.sidebar.image("https://cdn.pixabay.com/photo/2022/07/13/06/33/gears-7318660_1280.png")
