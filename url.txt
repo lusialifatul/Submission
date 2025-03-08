@@ -3,4 +3,4 @@
 - ID Dicoding: lusi_laila
 
 - url github: https://github.com/lusialifatul/Submission.git
-- url streamlit: https://submission-lusi.streamlit.app/
+- url streamlit: https://lusis-dashboard.streamlit.app/
